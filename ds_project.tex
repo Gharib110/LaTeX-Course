@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+
+\begin{document}
+	
+	\title{Data Structures Project}
+	\author{A. Gharib, Bsc Student, IUST\\
+	N. Khani, Bsc Student, IUST\\
+	A. Kontratchi, Bsc Student, IUST}
+
+	\date{\today}
+
+	\maketitle
+	
+	\begin{abstract}
+		This project is all about how to use basic data structures to design an application
+		which contains four fundamental classes.Also, we have four files which define several 
+		relationship between the classes.The design is based on arrays \and lists.
+	\end{abstract}
+
+	\section{Beginning}
+		The application just have one file and four fundamental classes.`"MyConsole" is a facade class which wrapping the `"MyOperator" methods.Basically, `"MyOperator" does all required functionalities except for `"CreateDrug" and `"CreateDisease" features.Actually, we just handle random generation in facade level.\\
+		By the way, we have another two classes, `"DiseaseDrugDb" and `"MyLogger", which are initialized at the beginning of program.
+	
+	\section{Database}
+		We have been implemented two classes to manage the initialization.Either one provides fast construction.Based on the init time we have chosen `"DiseaseDrugDB" class.According to the memory limitations we have decided to store data into four `"List<string>". So, `"MyOperator" methods are designed on the basis of text processing.\\
+		All paths that provided in class are static.
+	
+	\section{Logger}
+	As you can see in class definition, we consider several methods for storing and demonstrating all application logs before the exit command, inclusive.\\
+	By the way, `"LogPath" is a static path.
+	
+	\section{MyOperator}
+	All application features were implemented in this class. We have tried to use concurrency principles to achieve fast runtime for some methods that have needed intensive operations.
+	
+	
+\end{document}}

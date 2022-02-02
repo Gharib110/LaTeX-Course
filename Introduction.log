@@ -1,0 +1,120 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.19)  23 JAN 2022 20:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Introduction.tex
+(./Introduction.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(e:/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(e:/texlive/2021/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(e:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count187
+\l__pdf_internal_box=\box47
+)
+(./Introduction.aux)
+\openout1 = `Introduction.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+
+Underfull \hbox (badness 3323) in paragraph at lines 20--22
+\OT1/cmr/m/n/10.95 lan-guages avail-able for down-load-ing from
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 27--28
+\OT1/cmr/m/n/10.95 lan-guages avail-able for down-load-ing from
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/10.95 Although rea-son-ably suit-able as an all-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 31.
+[1{e:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 3323) in paragraph at lines 43--44
+\OT1/cmr/m/n/10.95 lan-guages avail-able for down-load-ing from
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10.95 Although rea-son-ably suit-able as an all-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 47.
+
+Underfull \hbox (badness 3323) in paragraph at lines 57--58
+\OT1/cmr/m/n/10.95 lan-guages avail-able for down-load-ing from
+ []
+
+[2] [3
+
+] (./Introduction.aux) ) 
+Here is how much of TeX's memory you used:
+ 428 strings out of 480401
+ 7446 string characters out of 5896381
+ 297491 words of memory out of 5000000
+ 17889 multiletter control sequences out of 15000+600000
+ 410000 words of font info for 49 fonts, out of 8000000 for 9000
+ 286 hyphenation exceptions out of 8191
+ 44i,7n,50p,526b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+<e:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><e:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><e:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><e:/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><e:/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb>
+Output written on Introduction.pdf (3 pages, 91614 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

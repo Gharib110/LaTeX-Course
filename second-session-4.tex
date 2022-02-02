@@ -1,0 +1,38 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{color}
+
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+%\pagecolor{black}
+
+\newcommand{\wwwrect}{\colorbox{blue}{\color{white}{\textsf{\textbf{\large www}}}}}
+
+\newcommand{\myrect}[1]{\colorbox{blue}{\color{white}{\textsf{\textbf{\large #1}}}}}
+
+\definecolor{narenji}{rgb}{1,0.5,0}
+
+\begin{document}
+
+% Command: \textcolor{colorname}{text}
+This part of text has \textcolor{red}{RED} color.\\
+
+% switch: {\color{colorname} text}
+This part of text has {\color{blue} BLUE} color.\\
+%{\color{white} This part of text has {\color{blue} BLUE} color.}\\
+
+% \colorbox{colorname}{text}
+This part of text is in \colorbox{narenji}{Orange Box}.\\
+
+% \fcolorbox{framecolor}{bkgcolor}{text}
+This part of text is in \fcolorbox{red}{yellow}{Yellow Box with Red Frame}.\\
+
+% WWW example from Bishop's Book
+Such exercises are denoted by \wwwrect.\\
+
+We defined a new macro, with name \verb"wwwrect", which displays the \wwwrect.
+
+And finally, we defined another macro, with name \verb"myrect", which displays Text as \myrect{Text}.
+
+
+\end{document}
