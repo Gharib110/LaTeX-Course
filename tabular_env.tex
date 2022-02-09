@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{multirow,color}
+
+\usepackage[table]{xcolor}
+
+\begin{document}
+
+\begin{center}
+
+
+
+{\rowcolors{1}{yellow}{white}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+  \hline
+  1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+  \hline
+  1 & 1 & {\cellcolor{red}1} & 1 & 1 & {\cellcolor[gray]{0.7}1} & 1 \\
+  \hline
+  1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+  \hline
+  1 & 1 & 1 & 1 & 1 & \multicolumn{2}{|r|}{\cellcolor[rgb]{0.8,0.5,1}1} \\
+  \hline
+\end{tabular}
+}
+\\[30pt]
+
+\begin{tabular}{|c||c|c|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \multicolumn{2}{|l|}{Text} & - \\
+  \hline
+  \multirow{2}{0.5cm}{Q} & 2 & a\\
+  \cline{2-3}
+  & 4 & b\\
+  \hline
+\end{tabular}
+\\[30pt]
+
+
+\begin{tabular}{|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{8cm}|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  1 & 2 & 3 & 4 & WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents... \\
+  \hline
+  5 & 6 & 7 & 8 & WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents... \\
+  \hline
+  9 & 10 & 1 & 12 & WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents... \\
+  \hline
+\end{tabular}
+\\[30pt]
+
+\begin{tabular}{r@{.}l}
+3 & 14159 \\
+16 & 2 \\
+123 & 456 \\
+\end{tabular}
+\\[30pt]
+
+\begin{tabular}{|l|c||r|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  One & Two & Three \\
+  \cline{1-1}
+  Four & Five & Six \\
+  \cline{3-3}
+  Seven & Eight & Nine \\
+  \hline
+\end{tabular}
+\\[30pt]
+
+\end{center}
+
+\end{document}

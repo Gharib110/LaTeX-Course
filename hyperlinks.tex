@@ -1,0 +1,90 @@
+%\documentclass[11pt,a4paper,twocolumn]{article}
+\documentclass[11pt,a4paper]{article}
+
+
+%\linespread{1}     % Normal Line Spread
+%\linespread{1.3}   % One-and-Half Line Spread
+%\linespread{1.6}   % Double Line Spread
+
+\usepackage{setspace}
+
+%\usepackage{hyperref}
+
+\usepackage{cite}
+
+%\newcommand{\myhyperref}[2]{\hyperref[#1]{#2 \ref*{#1}}}
+\newcommand{\myhyperref}[2]{#2 \ref{#1}}
+
+
+\begin{document}
+
+\title{Getting Started with \LaTeXe{}}
+
+\author{A. Author, Associate Professor
+\thanks{Some Lab, Some Faculty, University of Iran, e-mail: \texttt{the-email@mail.ac.ir}}\\\\
+\and B. Author, Professor
+\thanks{Some Lab, Some Faculty, University of Iran, e-mail: \texttt{the-email@mail.ac.ir}}\\
+}
+
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+
+WinEdt is used as a front-end for compilers and typesetting systems, such as TeX, HTML or NSIS. WinEdt's highlighting schemes can be customized for different modes and its spell checking functionality supports multilingual setups, with dictionaries (word lists) for many languages available for downloading from WinEdt's Community Site www.winedt.org. Contributions are welcome!
+
+Of course we are not going to talk about Einstein's formula: $E = m c^2$.
+
+\end{abstract}
+
+\section{Introduction} \label{section.intro}
+
+WinEdt is a powerful and versatile text editor\cite{Markovski09} for Windows with a strong predisposition towards the creation of LaTeX documents \cite{Green95,Markovski09,Tierney94}. \\[8pt]
+WinEdt is used as a front-end for compilers and typesetting systems, such as TeX, HTML or NSIS. WinEdt's highlighting\cite{Markovski09,Tierney94} schemes can be customized for different modes and its spell checking functionality supports multilingual setups, with dictionaries (word lists) for many languages available for downloading from WinEdt's Community Site www.winedt.org. Contributions are welcome!
+
+Although reasonably suitable\cite{Green95} as an all-purpose text editor, WinEdt has been specifically designed and configured to integrate seamlessly with a TeX System (such as MiKTeX or TeX Live). However, WinEdt's documentation does not cover TeX-related topics in depth; you'll find introductions and manuals on typesetting with TeX\cite{Green95,Markovski09}, as well as links to other recommended accessories, on TeX's Community Site (TUG). For LaTeX-related issues visit LaTeX Community Forum: questions are welcome and help is forthcoming!
+
+This paper is organized as follows: \TeX{} typesetting system is reviewed in \myhyperref{section.tex}{Section}; distributions of \TeX{} are reviewed in \myhyperref{section.dist}{Section}; advantages of \LaTeX{} system is investigated in \myhyperref{section.latex}{Section}; a list of commonly used editor software are provided in \myhyperref{section.editors}{Section}; and finally \myhyperref{section.conclusion}{Section} concludes the paper.
+
+\section{What is \TeX{}?} \label{section.tex}
+
+WinEdt 7.1 is now the official version of the program. It is unicode-capable and integrates seamlessly with the latest accessories and TeX Systems (MiKTeX 2.9 and TeX Live 2012). It has been extensively tested under Windows XP, Vista, 7, and 8 (32-bit and 64-bit).
+
+Don't forget to check WinEdt's (updated and revised) help and documentation. Sections in the User's Guide explain how to set up your LaTeX projects in order to take full advantage of WinEdt's capabilities when it comes to navigating in large projects or collecting data for purpose of referencing and citations. If used properly, WinEdt will make your TeX-ing more enjoyable by allowing you to focus on the contents of your documents while transparently taking care of typesetting-related tasks.
+
+\section{\TeX{} Distributions} \label{section.dist}
+
+WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents...
+
+WinEdt is used as a front-end for compilers and typesetting systems, such as TeX, HTML or NSIS. WinEdt's highlighting schemes can be customized for different modes and its spell checking functionality supports multilingual setups, with dictionaries (word lists) for many languages available for downloading from WinEdt's Community Site www.winedt.org. Contributions are welcome!
+
+Although reasonably suitable as an all-purpose text editor, WinEdt has been specifically designed and configured to integrate seamlessly with a TeX System (such as MiKTeX or TeX Live). However, WinEdt's documentation does not cover TeX-related topics in depth; you'll find introductions and manuals on typesetting with TeX, as well as links to other recommended accessories, on TeX's Community Site (TUG). For LaTeX-related issues visit LaTeX Community Forum: questions are welcome and help is forthcoming!
+
+\section{Advantages of \LaTeX{}} \label{section.latex}
+
+Although reasonably suitable as an all-purpose text editor, WinEdt has been specifically designed and configured to integrate seamlessly with a TeX System (such as MiKTeX or TeX Live). However, WinEdt's documentation does not cover TeX-related topics in depth; you'll find introductions and manuals on typesetting with TeX, as well as links to other recommended accessories, on TeX's Community Site (TUG). For LaTeX-related issues visit LaTeX Community Forum: questions are welcome and help is forthcoming!
+
+\section{Editors} \label{section.editors}
+
+WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents...
+
+\subsection{Cross-Platform Editors} \label{section.editors.cross}
+
+WinEdt is used as a front-end for compilers and typesetting systems, such as TeX, HTML or NSIS. WinEdt's highlighting schemes can be customized for different modes and its spell checking functionality supports multilingual setups, with dictionaries (word lists) for many languages available for downloading from WinEdt's Community Site www.winedt.org. Contributions are welcome!
+
+\subsection{Windows-based Editors} \label{section.editors.win}
+
+Although reasonably suitable as an all-purpose text editor, WinEdt has been specifically designed and configured to integrate seamlessly with a TeX System (such as MiKTeX or TeX Live). However, WinEdt's documentation does not cover TeX-related topics in depth; you'll find introductions and manuals on typesetting with TeX, as well as links to other recommended accessories, on TeX's Community Site (TUG). For LaTeX-related issues visit LaTeX Community Forum: questions are welcome and help is forthcoming!
+
+\section{Conclusion} \label{section.conclusion}
+
+WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents...
+
+% \section*{References} \label{section.refs}
+
+\bibliographystyle{alpha}
+\bibliography{myrefs}
+
+
+\end{document}
